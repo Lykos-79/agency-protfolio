@@ -1,12 +1,44 @@
-# React + Vite
+# Tripod - Creative Web Agency Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Tripod is a sleek, fully responsive web agency portfolio designed to showcase services, completed projects, testimonials, FAQs, and contact capabilities. Built with **React** and **Tailwind CSS**, this project is perfect for freelancers or agencies in the web design, travel, and marketing domain.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🌐 Fully responsive design (mobile-first)
+- 💼 Portfolio with project cards & slider
+- 🧩 Services section with custom layout
+- 🧑‍💬 Testimonials with modern UI
+- ❓ FAQ accordion section
+- 📬 Working email form via FormSubmit
+- 📧 Social media integration
+- 🌙 Dark UI with soft branding
+- 📄 Clean code structure and reusable components
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📸 Preview
+
+![Tripod Screenshot](./preview.png)
+
+---
+
+## 🛠️ Tech Stack
+
+- [React.js](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [FormSubmit](https://formsubmit.co/) (for contact form handling)
+- [Font Awesome](https://fontawesome.com/) (for icons)
+- [Lucide React](https://lucide.dev/) (optional modern icons)
+
+---
+
+## 📁 Project Structure
+
+```bash
+src/
+├── assets/          # All static images and icons
+├── components/      # Reusable components (Navbar, Footer, Cards, etc.)
+├── pages/           # Page sections (Home, Services, About, Contact, etc.)
+├── App.jsx
+├── main.jsx
+```
