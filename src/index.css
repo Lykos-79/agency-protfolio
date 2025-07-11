@@ -1,2 +1,14 @@
 @import "tailwindcss";
 @import "keen-slider/keen-slider.min.css";
+
+.group:hover .group-hover\\:rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+.preserve-3d {
+  transform-style: preserve-3d;
+}

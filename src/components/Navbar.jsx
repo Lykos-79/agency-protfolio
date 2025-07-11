@@ -21,7 +21,7 @@ export default function Navbar() {
     <nav className="w-full shadow-md">
       <div className="flex justify-between items-center px-6 md:px-16 py-8">
         {/* Logo */}
-        <h1 className="text-2xl font-bold text-white">Tripod</h1>
+        <h1 className="text-2xl font-bold text-white">INVICTUS</h1>
 
         {/* Hamburger Button */}
         <div className="md:hidden">

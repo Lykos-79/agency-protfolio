@@ -1,28 +1,28 @@
 import { Twitter } from "lucide-react";
-import avatar1 from "../assets/avatar1.png";
-import avatar2 from "../assets/avatar2.png";
-import avatar3 from "../assets/avatar1.png";
+import avatar1 from "../assets/avatar1.jpg";
+// import avatar2 from "../assets/avatar2.png";
+// import avatar3 from "../assets/avatar1.png";
 
 export default function TestimonialsSection() {
   const testimonials = [
     {
-      text: "Working with DigiX was a pleasure. Their web design team created a stunning website that perfectly captured our brand’s essence. The feedback from our customers has been overwhelmingly positive.",
-      name: "Mark Roberts",
-      role: "Founder of GreenEarth Eco Store",
+      text: "Working with INVICTUS was a pleasure. Their web design team created a stunning website that perfectly captured our brand’s essence. The feedback from our customers has been overwhelmingly positive.",
+      name: "Nageshwar Singh",
+      role: "CTO of Hum nikle gaddi leke",
       avatar: avatar1,
     },
-    {
-      text: "The mobile app DigiX developed for us exceeded our expectations. Its user-friendly interface and seamless functionality have earned us rave reviews from our users.",
-      name: "Lisa Williams",
-      role: "Head of Product at HealthTech Innovations",
-      avatar: avatar2,
-    },
-    {
-      text: "DigiX transformed our outdated website into a modern, responsive platform. Their attention to detail and ability to understand our needs made the entire process smooth and stress-free.",
-      name: "Michael Johnson",
-      role: "Marketing Manager at GlobalTech",
-      avatar: avatar3,
-    },
+    // {
+    //   text: "The mobile app DigiX developed for us exceeded our expectations. Its user-friendly interface and seamless functionality have earned us rave reviews from our users.",
+    //   name: "Lisa Williams",
+    //   role: "Head of Product at HealthTech Innovations",
+    //   avatar: avatar2,
+    // },
+    // {
+    //   text: "DigiX transformed our outdated website into a modern, responsive platform. Their attention to detail and ability to understand our needs made the entire process smooth and stress-free.",
+    //   name: "Michael Johnson",
+    //   role: "Marketing Manager at GlobalTech",
+    //   avatar: avatar3,
+    // },
   ];
 
   return (
@@ -44,7 +44,13 @@ export default function TestimonialsSection() {
       </div>
 
       {/* Cards */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+      <div
+        className={`grid gap-8 ${
+          testimonials.length === 1
+            ? "place-items-center"
+            : "grid-cols-1 sm:grid-cols-2 md:grid-cols-3"
+        }`}
+      >
         {testimonials.map((item, index) => (
           <div
             key={index}

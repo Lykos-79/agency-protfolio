@@ -1,6 +1,6 @@
-# Tripod - Creative Web Agency Portfolio
+# Invictus - Creative Web Agency Portfolio
 
-Tripod is a sleek, fully responsive web agency portfolio designed to showcase services, completed projects, testimonials, FAQs, and contact capabilities. Built with **React** and **Tailwind CSS**, this project is perfect for freelancers or agencies in the web design, travel, and marketing domain.
+Invictus is a sleek, fully responsive web agency portfolio designed to showcase services, completed projects, testimonials, FAQs, and contact capabilities. Built with **React** and **Tailwind CSS**, this project is perfect for freelancers or agencies in the web design, travel, and marketing domain.
 
 ## 🚀 Features
 
@@ -18,7 +18,7 @@ Tripod is a sleek, fully responsive web agency portfolio designed to showcase se
 
 ## 📸 Preview
 
-![Tripod Screenshot](./preview.png)
+![Invictus Screenshot](./preview.png)
 
 ---
 

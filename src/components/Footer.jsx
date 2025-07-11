@@ -16,14 +16,14 @@ export default function Footer() {
               <i className="fab fa-facebook-f hover:text-blue-500"></i>
             </a>
             <a
-              href="https://twitter.com"
+              href="https://x.com/Abhisekh_Kumar_"
               target="_blank"
               rel="noopener noreferrer"
             >
               <i className="fab fa-twitter hover:text-blue-400"></i>
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/abhisekh-kumar-7a3560280/"
               target="_blank"
               rel="noopener noreferrer"
             >

@@ -68,13 +68,13 @@ export default function FAQ() {
       </div>
 
       {/* Search Bar UI (non-functional) */}
-      <div className="flex justify-center mb-10">
+      {/* <div className="flex justify-center mb-10">
         <input
           type="text"
           placeholder="🔍 Search"
           className="bg-[#1C1F3B] text-white p-3 px-5 rounded-full w-full max-w-md outline-none"
         />
-      </div>
+      </div> */}
 
       {/* FAQ Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
