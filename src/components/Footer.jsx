@@ -8,13 +8,13 @@ export default function Footer() {
           <p className="text-sm text-gray-400 mb-4">Information Technology</p>
           <h4 className="text-sm font-medium mb-2">Follow</h4>
           <div className="flex gap-3">
-            <a
+            {/* <a
               href="https://facebook.com"
               target="_blank"
               rel="noopener noreferrer"
             >
               <i className="fab fa-facebook-f hover:text-blue-500"></i>
-            </a>
+            </a> */}
             <a
               href="https://x.com/Abhisekh_Kumar_"
               target="_blank"
@@ -29,13 +29,13 @@ export default function Footer() {
             >
               <i className="fab fa-linkedin-in hover:text-blue-600"></i>
             </a>
-            <a
+            {/* <a
               href="https://instagram.com"
               target="_blank"
               rel="noopener noreferrer"
             >
               <i className="fab fa-instagram hover:text-pink-500"></i>
-            </a>
+            </a> */}
           </div>
         </div>
 
