@@ -1,14 +1,45 @@
 @import "tailwindcss";
 @import "keen-slider/keen-slider.min.css";
 
-.group:hover .group-hover\\:rotate-y-180 {
+/* project.css */
+
+.perspective {
+  perspective: 1000px;
+}
+
+.card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.7s;
+}
+
+.group:hover .card {
   transform: rotateY(180deg);
 }
 
-.backface-hidden {
+.card-face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
   backface-visibility: hidden;
+  border-radius: 0.75rem; /* match Tailwind's rounded-xl */
+  overflow: hidden;
 }
 
-.preserve-3d {
-  transform-style: preserve-3d;
+.card-front {
+  z-index: 2;
+}
+
+.card-back {
+  transform: rotateY(180deg);
+  background-color: #1c1f3b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  text-align: center;
+  color: white;
 }
